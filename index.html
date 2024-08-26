@@ -12,8 +12,9 @@
         theme: {
           extend: {
             colors: {
-              'btn-bg': '#ABEF5F',
+              'btn-bg': 'rgb(171, 239, 95)',
               'primary' : 'rgb(115, 115, 115)',
+              'btn-secondary': 'rgb(171, 239, 95, 0.5)',
             }
           }
         }
@@ -73,8 +74,22 @@
                 </div>
               </div>
         </nav>
-        <div class="hero">
-          
+        <div class="hero min-h-screen text-center">
+          <div class="hero-content flex-col">
+            <img
+              src="assets/banner.png"
+              class="max-w-sm rounded-lg" />
+            <div class="w-4/6 mx-auto">
+              <h1 class="text-5xl font-bold">A barn house of this design has a striking appearance</h1>
+              <p class="py-6">
+                The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal
+                 accents, and large windows that flood the space with natural light.
+              </p>
+              <button class="btn rounded-full bg-btn-secondary">View Details
+                <span class="rotate-45 bg-btn-bg rounded-full w-7 h-7 text-xl font-normal"><i class="fa-solid fa-arrow-up"></i></span>
+              </button>
+            </div>
+          </div>
         </div>
     </header>
     <main>
