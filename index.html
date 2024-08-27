@@ -1,11 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Batch-10 Third Assignment</title>
+    <!-- google fonts starts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- google fonts Ends  -->
+    <!-- DaisyUi Starts  -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome Starts  -->
     <script src="https://kit.fontawesome.com/9d272923cd.js" crossorigin="anonymous"></script>
     <script>
       tailwind.config = {
@@ -21,9 +28,17 @@
         }
       }
     </script>
+    <style>
+      .font-manrope {
+        font-family: "Manrope", sans-serif;
+      }
+    </style>
 </head>
-<body>
+<!-- Body Section Starts -->
+<body class="font-manrope">
+<!-- Header Section Starts  -->
     <header class="w-5/6 sm:w-11/12 mx-auto pt-8">
+<!-- Navigation Section Starts  -->
         <nav>
             <div class="navbar bg-base-100 flex justify-between">
                 <div class="navbar-start">
@@ -75,6 +90,9 @@
                 </div>
               </div>
         </nav>
+<!-- Navigation Section Ends  -->
+
+<!-- Hero Section Starts  -->
         <div class="hero min-h-screen text-center">
           <div class="hero-content flex-col">
             <img
@@ -92,9 +110,14 @@
             </div>
           </div>
         </div>
+<!-- Hero Section Ends  -->
     </header>
+<!-- Header Section Ends  -->
+
+<!-- Main Section Starts  -->
     <main>
       <div class="bg-base-200">
+<!-- thoughtful Design Section Starts  -->
         <section class="w-5/6 sm:w-11/12 mx-auto">
         <div class="hero p-8">
           <div class="hero-content flex-col lg:flex-row">
@@ -137,11 +160,13 @@
           </div>
         </div>
         </section>
+<!-- thoughtful Design Section Ends  -->
 
+<!-- Our Work Process Section Starts  -->
         <section class="w-5/6 sm:w-11/12 mx-auto">
             <div class="text-center lg:w-3/6 mx-auto">
               <button class="btn rounded-full bg-white my-4"><i class="fa-solid fa-arrow-right"></i>How we works</button>
-                <h1 class="text-5xl font-bold">Our Works Process</h1>
+                <h1 class="text-5xl font-bold">Our Work Process</h1>
                 <p class="py-6 text-primary">
                   The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
                 </p>
@@ -177,8 +202,9 @@
               </div>
             </div>
         </section>
+<!-- Our Work Process Section Ends  -->
       </div>
-
+<!-- Our Lates Portfolio Section Starts  -->
       <section class="w-5/6 sm:w-11/12 mx-auto mt-10">
         <div class="text-center lg:w-3/6 mx-auto">
           <button class="btn rounded-full bg-btn-secondary my-4"><i class="fa-solid fa-arrow-right"></i>Explore our Latest works</button>
@@ -234,7 +260,9 @@
           </div>
         </div>
       </section>
+<!-- Our Lates Portfolio Section Ends  -->
 
+<!-- Discuss Section Starts  -->
       <section class="bg-[url('/assets/bg.jpg')]  bg-center bg-cover bg-no-repeat">
         <div class="w-screen h-screen">
           <div class="w-5/6 sm:11/12 mx-auto">
@@ -261,7 +289,11 @@
           </div>
         </div>
       </section>
+<!-- Discuss Section Ends  -->
     </main>
+<!-- Main Section Ends  -->
+
+<!-- Footer Section Starts  -->
     <footer class="bg-footer">
       <div class="w-5/6 sm:w-11/12 mx-auto py-24">
         <div class="text-center lg:w-3/6 mx-auto">
@@ -289,5 +321,7 @@
         </div>
       </div>
     </footer>
+<!-- Footer Section Ends  -->
 </body>
+<!-- Body Section Ends -->
 </html>
